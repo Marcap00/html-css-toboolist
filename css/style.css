@@ -4,3 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+body {
+    background-color: #282c34;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 10px 18px;
+}
+
+#logo {
+    vertical-align: middle;
+    height: 50px;
+}
+
+.title-header {
+    display: inline;
+    vertical-align: middle;
+    font-size: 45px;
+    font-family: sans-serif;
+}
