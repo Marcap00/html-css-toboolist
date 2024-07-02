@@ -73,7 +73,17 @@ main {
 
 /*Section List*/
 
+
 /*Icon*/
+
+h2 .triangle::before{
+    content: '\25BC';
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
 .icon::before {
     display: inline-block;
     width: 15px;
