@@ -23,7 +23,7 @@ ul{
 /* Utilities */
 .container-button {
     max-width: 1080px;
-    margin: 30px auto;
+    margin: 30px auto 2px;
 }
 
 .container-main {
@@ -71,11 +71,9 @@ main {
     padding: 30px 20px;
 }
 
-/*Section New Task*/
+/*Section List*/
 
-
-
-
+/*Icon*/
 .icon::before {
     display: inline-block;
     width: 15px;
@@ -101,7 +99,7 @@ li .icon.delete::before {
     margin-top: 10px;
 }
 
-
+/*Label*/
 .label {
     display: inline-block;
     padding: 5px 10px;
