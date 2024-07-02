@@ -8,6 +8,7 @@
 /* Generics */
 body {
     background-color: #282c34;
+    font-family: sans-serif;
 }
 
 /* Utilities */
@@ -16,7 +17,10 @@ body {
     margin: 30px auto;
 }
 
-
+.container-main {
+    max-width: 1080px;
+    margin: 2px auto;;
+}
 
 /* Header */
 header {
@@ -33,7 +37,6 @@ header {
     display: inline;
     vertical-align: middle;
     font-size: 45px;
-    font-family: sans-serif;
 }
 
 /* Header main */
@@ -51,4 +54,47 @@ header {
 .button.add-section {
     margin-left: 3px;
     color: #959595;
+}
+
+/* Main */
+main {
+    background-color: white;
+    padding: 30px 20px;
+}
+
+/*Section New Task*/
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.icon::before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+li .icon.checked::before {
+    content: '\2713';
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+
+.label {
+    background-color:#1e90ff;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
 }
