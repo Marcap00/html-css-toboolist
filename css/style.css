@@ -10,6 +10,14 @@ body {
     background-color: #282c34;
 }
 
+/* Utilities */
+.container-button {
+    max-width: 1080px;
+    margin: 30px auto;
+}
+
+
+
 /* Header */
 header {
     background-color: white;
@@ -26,4 +34,21 @@ header {
     vertical-align: middle;
     font-size: 45px;
     font-family: sans-serif;
+}
+
+/* Header main */
+.button {
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid #959595;
+}
+
+.button.add-task {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.button.add-section {
+    margin-left: 3px;
+    color: #959595;
 }
