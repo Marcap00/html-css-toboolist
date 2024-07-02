@@ -11,6 +11,15 @@ body {
     font-family: sans-serif;
 }
 
+h2, li {
+    margin-top: 10px;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
 /* Utilities */
 .container-button {
     max-width: 1080px;
@@ -63,14 +72,7 @@ main {
 }
 
 /*Section New Task*/
-h2, li {
-    margin-top: 10px;
-}
 
-ul{
-    list-style-position: inside;
-    list-style-type: none;
-}
 
 
 
@@ -109,18 +111,26 @@ li .icon.delete::before {
     margin-left: 5px;
 }
 
-.label.blue{
+.label.editorial{
     background-color:#1e90ff;
 }
 
-.label.purple{
+.label.goals{
     background-color: #9C72E4;
 }
 
-.label.green{
+.label.recruiting{
     background-color: #64C0A9;
 }
 
-.label.orange{
+.label.mobile{
     background-color: #F29E33;
+}
+
+.label.website{
+    background-color: #D761A0;
+}
+
+.label.sales{
+    background-color: #B0C926;
 }
