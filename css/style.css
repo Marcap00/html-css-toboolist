@@ -63,14 +63,16 @@ main {
 }
 
 /*Section New Task*/
+h2, li {
+    margin-top: 10px;
+}
+
 ul{
     list-style-position: inside;
     list-style-type: none;
 }
 
-li {
-    margin-top: 10px;
-}
+
 
 .icon::before {
     display: inline-block;
@@ -87,14 +89,38 @@ li .icon.checked::before {
     content: '\2713';
     border: 1px solid #2cc6ab;
     color: #2cc6ab;
+    margin-top: 10px ;
+}
+
+li .icon.delete::before {
+    content: '\2573';
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    margin-top: 10px;
 }
 
 
 .label {
-    background-color:#1e90ff;
     display: inline-block;
     padding: 5px 10px;
     font-size: 10px;
     color: white;
     border-radius: 10px;
+    margin-left: 5px;
+}
+
+.label.blue{
+    background-color:#1e90ff;
+}
+
+.label.purple{
+    background-color: #9C72E4;
+}
+
+.label.green{
+    background-color: #64C0A9;
+}
+
+.label.orange{
+    background-color: #F29E33;
 }
