@@ -21,13 +21,15 @@ ul{
 }
 
 /* Utilities */
-.container-button {
+.container {
     max-width: 1080px;
+}
+
+.container.buttons {
     margin: 30px auto 2px;
 }
 
-.container-main {
-    max-width: 1080px;
+.container.main {
     margin: 2px auto;;
 }
 
@@ -37,14 +39,16 @@ header {
     padding: 10px 18px;
 }
 
-#logo-header {
+.header {
     vertical-align: middle;
+}
+
+.logo.header {
     height: 50px;
 }
 
-.title-header {
+.title.header {
     display: inline;
-    vertical-align: middle;
     font-size: 45px;
 }
 
